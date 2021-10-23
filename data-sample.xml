@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+	<block type="text_join" id="}x}p=@S0EOc3Z4#i5K(Q" x="333" y="146">
+		<mutation items="3" />
+		<value name="ADD0">
+			<block type="date_adder" id="=e{h6i%7.YjckT1AUWlZ">
+				<field name="ACTION_FIELD" enabled="true" selectOption="undefined" hasBeenSet="true">
+					add
+				</field>
+				<field name="DATE_FIELD" enabled="true" selectOption="undefined" hasBeenSet="true">
+					days
+				</field>
+				<value name="VALUE">
+					<shadow type="math_number" id="zJz$,[h~3MyDYv%y$RZ^">
+						<field name="NUM">
+							0
+						</field>
+					</shadow>
+				</value>
+				<value name="DATE">
+					<shadow type="date" id="CnyAPYbsBpcBNvqh-9T}">
+						<field name="DATE">
+							2020-08-18
+						</field>
+					</shadow>
+				</value>
+			</block>
+		</value>
+		<value name="ADD1">
+			<block type="math_number" id=".@qB(9K9xgv;:;yJrqPh">
+				<field name="NUM">
+					123
+				</field>
+			</block>
+		</value>
+		<value name="ADD2">
+			<block type="snap_date_picker_number" id="+QG:=7Ie9h^lD)D~x%]H">
+				<value name="DAY">
+					<shadow type="math_number" id="}0hXjvaPD+T)Orp]:fi+">
+						<field name="NUM">
+							0
+						</field>
+					</shadow>
+				</value>
+				<value name="MONTH">
+					<shadow type="math_number" id="5%(L6wKsZnBu5g]!JOpp">
+						<field name="NUM">
+							0
+						</field>
+					</shadow>
+				</value>
+				<value name="YEAR">
+					<shadow type="math_number" id="OD8ps8W6KMJ@z@.9i$Jr">
+						<field name="NUM">
+							0
+						</field>
+					</shadow>
+				</value>
+			</block>
+		</value>
+	</block>
+</xml>

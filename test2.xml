@@ -1,0 +1,59 @@
+<xml
+	xmlns="https://developers.google.com/blockly/xml">
+	<variables>
+		<variable id="4K)Kxd?cAtWLBa2^zlq^">item</variable>
+		<variable id="ZWS_hNVPV:JPaRmwq#7o">i</variable>
+	</variables>
+	<block type="controls_if" id="Woew!e6zvjx!=VF;ao33" x="152" y="196">
+		<mutation else="1"/>
+		<value name="IF0">
+			<block type="math_number_property" id="[arX07.x}#llK{(c1z$%">
+				<mutation divisor_input="false"/>
+				<field name="PROPERTY" enabled="true" selectOption="undefined" hasBeenSet="true">EVEN</field>
+				<value name="NUMBER_TO_CHECK">
+					<shadow type="math_number" id="f^~D^!J$S7Z9Qcq]VEC2">
+						<field name="NUM">0</field>
+					</shadow>
+				</value>
+			</block>
+		</value>
+		<statement name="DO0">
+			<block type="text_append" id="{vltzxvB5^+f[WD!Q7mK">
+				<field name="VAR" id="4K)Kxd?cAtWLBa2^zlq^">item</field>
+				<value name="TEXT">
+					<shadow type="text" id="sD9)fsngI{wadwYT{:5O">
+						<field name="TEXT">abccd</field>
+					</shadow>
+				</value>
+			</block>
+		</statement>
+		<statement name="ELSE">
+			<block type="lists_setIndex_2" id="5]8p[,Zik?|LEp+XIPQB">
+				<mutation at="true"/>
+				<field name="LIST" id="ZWS_hNVPV:JPaRmwq#7o">i</field>
+				<field name="MODE" enabled="true" selectOption="undefined" hasBeenSet="true">SET</field>
+				<field name="WHERE" enabled="true" selectOption="undefined" hasBeenSet="true">FROM_START</field>
+				<value name="AT">
+					<shadow type="math_whole_number" id="g:||R.IL(yCr|Vx!we_%">
+						<field name="NUM">1</field>
+					</shadow>
+				</value>
+				<value name="TO">
+					<block type="math_arithmetic" id=",XmB~JfV.pWb9fP?}N^g">
+						<field name="OP" enabled="true" selectOption="undefined" hasBeenSet="true">ADD</field>
+						<value name="A">
+							<shadow type="math_number" id="s7w~qk;-s3.@VKk[zS_~">
+								<field name="NUM">1</field>
+							</shadow>
+						</value>
+						<value name="B">
+							<shadow type="math_number" id="ym,GU8vXM.4ZP-XG4|%.">
+								<field name="NUM">1</field>
+							</shadow>
+						</value>
+					</block>
+				</value>
+			</block>
+		</statement>
+	</block>
+</xml>
